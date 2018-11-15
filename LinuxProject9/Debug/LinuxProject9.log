@@ -1,0 +1,19 @@
+﻿  Updating C:\Users\Patryk\source\repos\LinuxProject9\LinuxProject9\LinuxProject9.pro
+  VisualGDB: Updated source file list in C:\Users\Patryk\source\repos\LinuxProject9\LinuxProject9\LinuxProject9.pro. Enable verbose mode for more details.
+  VisualGDB: Run "C:\SysGCC\raspberry\Qt\v5\qmake.exe  LinuxProject9.pro CONFIGNAME=Debug" in directory "C:\Users\Patryk\source\repos\LinuxProject9\LinuxProject9" on local computer
+  VisualGDB: Run "C:\SysGCC\raspberry\bin\make.exe " in directory "C:\Users\Patryk\source\repos\LinuxProject9\LinuxProject9" on local computer
+  'C:\SysGCC\raspberry\Qt\v5\uic.exe' E:/Programy/qtcreatorx64/bin/nienazwany/dialog.ui -o Debug/ui_dialog.h
+  C:/SysGCC/raspberry/bin/arm-linux-gnueabihf-g++.exe -c -pipe -Wno-psabi -ggdb -g -Wall -W -D_REENTRANT -fPIC -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -IC:/SysGCC/raspberry/arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/arm-linux-gnueabihf -I. -isystem C:/sysgcc/raspberry/arm-linux-gnueabihf/sysroot/usr/include/arm-linux-gnueabihf/qt5 -isystem C:/sysgcc/raspberry/arm-linux-gnueabihf/sysroot/usr/include/arm-linux-gnueabihf/qt5/QtWidgets -isystem C:/sysgcc/raspberry/arm-linux-gnueabihf/sysroot/usr/include/arm-linux-gnueabihf/qt5/QtGui -isystem C:/sysgcc/raspberry/arm-linux-gnueabihf/sysroot/usr/include/arm-linux-gnueabihf/qt5/QtCore -IDebug -IDebug -o Debug/dialog.o dialog.cpp
+C:\Users\Patryk\source\repos\LinuxProject9\LinuxProject9\dialog.cpp(1,20): error : dialog.h: No such file or directory
+   #include "dialog.h"
+                      ^
+  compilation terminated.
+  make: *** [Debug/dialog.o] Error 1
+  -------------------------------------------------------------
+  Command exited with code 2
+  Executable: C:\SysGCC\raspberry\bin\make.exe
+  Arguments: 
+  Directory: C:\Users\Patryk\source\repos\LinuxProject9\LinuxProject9
+VisualGDB : error : Command-line action failed
+VisualGDB : error : Build has failed. See the Output window for more details.
+E:\Programy\visual studio\vs\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3073: The command ""C:\Program Files (x86)\Sysprogs\VisualGDB\\VisualGDB.exe" /build "C:\Users\Patryk\source\repos\LinuxProject9\LinuxProject9\LinuxProject9.vcxproj" "/solution:C:\Users\Patryk\source\repos\LinuxProject9\LinuxProject9.sln"  "/config:Debug" "/platform:Win32"" exited with code 1.
